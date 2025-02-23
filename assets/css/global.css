@@ -884,7 +884,7 @@ img{
 .sec-title_title{
 	position: relative;
     font-weight:600;
-    font-size:14px;
+    font-size:28px;
 	letter-spacing: 3px;
 	color:var(--main-color);
 	display: inline-block;

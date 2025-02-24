@@ -1,18 +1,26 @@
-name: Publish Website to CPanel
+# Start of Selection
+# Workflow file for this run
+# .github/workflows/deployment.yml at 0bafe42
+name: Deploy to cPanel
 on:
   push:
     branches:
       - main
+
 jobs:
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v2
-      - name: Deploy to FTP
-        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      - name: Checkout code
+        uses: actions/checkout@v4
         with:
-          ftp-server: ${{ secrets.FTP_SERVER }}
-          ftp-username: ${{ secrets.FTP_USERNAME }}
-          ftp-password: ${{ secrets.FTP_PASSWORD }}
+          fetch-depth: 2
+      - name: Deploy to cPanel
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          port: 21
+# End of Selection

@@ -235,7 +235,7 @@
 							<div class="sec-title_title">About Us test1</div>
 							<h2 class="sec-title_heading">Crafting Your Digital Story – Explore Our Journey</h2>
 						</div>
-						<p>Tired of busywork? So were we. Flomize was born to erase the "grind" from your workday. We turn hours of content creation into minutes with AI avatars, automate customer chaos with bots that never sleep, and make workflows vanish like magic. Your time deserves better than spreadsheets. Let’s reclaim it. Work less. Create more.</p>
+						<p>Tired of busywork? So were we. Flomize was born to erase the "grind" from your workday. We turn hours of content creation into minutes with AI avatars, automate customer chaos with bots that never sleep, and make workflows vanish like magic. Your time deserves better than spreadsheets. Let's reclaim it. Work less. Create more.</p>
 						<div class="about-one_options d-flex align-items-center flex-wrap">
 							<a href="about.html" class="template-btn btn-style-one">
 								<span class="btn-wrap">
@@ -757,10 +757,29 @@
 <!-- End PageWrapper -->
 
 <div class="progress-wrap">
-	<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-		<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
-	</svg>
+    <!-- Remove the existing scroll-up button -->
+    <!-- <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+    </svg> -->
 </div>
+
+<!-- Add the new fixed rounded WhatsApp button with continuous glow effect -->
+<div class="whatsapp-button" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000; border-radius: 50%; animation: glow 1.5s infinite alternate; background: transparent;">
+    <a href="https://wa.me/8421568281" target="_blank">
+        <img src="assets/images/icons/whatsapp-icon.png" alt="WhatsApp" style="width: 60px; height: 60px; border-radius: 50%; background: transparent;">
+    </a>
+</div>
+
+<style>
+    @keyframes glow {
+        0% {
+            box-shadow: 0 0 5px green; /* Reduced shadow size */
+        }
+        100% {
+            box-shadow: 0 0 15px green; /* Reduced shadow size */
+        }
+    }
+</style>
 
 <script src="assets/js/jquery.js"></script>
 <script src="assets/js/popper.min.js"></script>

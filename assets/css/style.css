@@ -565,15 +565,9 @@
 	z-index: -1;
 	opacity: 0.50;
 	border-radius: 50px;
-    background: var(--main-color);
-    background: linear-gradient(to right, var(--main-color) 0%, var(--color-five) 100%)
+    
 }
 
-.service-block_one-inner:hover .service-block_one-icon{
-	color: var(--white-color);
-	background-color: var(--main-color);
-	transform: rotateY(180deg);
-}
 
 .service-block_one-heading{
 	position: relative;

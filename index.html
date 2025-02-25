@@ -558,7 +558,7 @@
 			<!-- Sec Title -->
 			<div class="sec-title centered">
 				<div class="sec-title_title">Integrations</div>
-				<h2 class="sec-title_heading">Incorporate our tool into <br> <span>your everyday tasks</span></h2>
+				<h2 class="sec-title_heading">Integrate our AI solutions into <br> <span>your everyday tasks</span></h2>
 			</div>
 			<div class="social-one_logo">
 				<span><img style="scale: 0.6;" src="assets/images/icons/purple-ai.png" alt="" /></span>
@@ -720,20 +720,35 @@
     </svg> -->
 </div>
 
-<!-- Add the new fixed rounded WhatsApp button with continuous glow effect -->
-<div class="whatsapp-button" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000; border-radius: 50%; animation: glow 1.5s infinite alternate; background: transparent;">
-    <a href="https://wa.me/8421568281" target="_blank">
-        <img src="assets/images/icons/whatsapp-icon.png" alt="WhatsApp" style="width: 60px; height: 60px; border-radius: 50%; background: transparent;">
+<!-- Add the new fixed rounded WhatsApp button with a glowing effect -->
+<div class="whatsapp-button" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000; border-radius: 50%; background: transparent; display: flex; justify-content: center; align-items: center; box-shadow: 0 0 8px #761fe3; transform: scale(1.1); transition: transform 0.5s ease-in-out; animation: wave 1.5s infinite, glow 2s ease-in-out infinite;">
+    <a href="https://wa.me/8421568281" target="_blank" style="text-decoration: none; display: flex; justify-content: center; align-items: center;">
+        <div style="width: 35px; height: 35px; border-radius: 50%; background: #761fe3; display: flex; justify-content: center; align-items: center; box-shadow: 0 0 8px #761fe3; transform: scale(1.1); transition: transform 0.5s ease-in-out; animation: wave 1.5s infinite, glow 2s ease-in-out infinite;">
+            <i class="fa-brands fa-whatsapp" style="color: #fff; font-size: 24px;"></i>
+        </div>
     </a>
 </div>
-
 <style>
-    @keyframes glow {
+    @keyframes wave {
         0% {
-            box-shadow: 0 0 5px green; /* Reduced shadow size */
+            transform: scale(0.8) rotate(0deg);
+        }
+        50% {
+            transform: scale(1) rotate(1deg);
         }
         100% {
-            box-shadow: 0 0 15px green; /* Reduced shadow size */
+            transform: scale(0.8) rotate(0deg);
+        }
+    }
+    @keyframes glow {
+        0% {
+            box-shadow: 0 0 8px #761fe3;
+        }
+        50% {
+            box-shadow: 0 0 12px #761fe3;
+        }
+        100% {
+            box-shadow: 0 0 8px #761fe3;
         }
     }
 </style>

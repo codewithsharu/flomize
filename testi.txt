@@ -1,0 +1,116 @@
+
+	
+	<section class="testimonial-one" id="testimonials">
+		<div class="auto-container">
+			<div class="inner-container" style="background-image:url(assets/images/background/testimonial-one_bg.png)">
+				<!-- Sec Title -->
+				<div class="sec-title centered">
+					<div class="sec-title_title">Testimonials</div>
+					<h2 class="sec-title_heading">What our respectable <br> <span>clients say</span></h2>
+				</div>
+				<div class="three-item_carousel swiper-container">
+					<div class="swiper-wrapper">
+
+						<!-- Slide -->
+						<div class="swiper-slide">
+							<!-- Testimonial Block One -->
+							<div class="testimonial-block_one">
+								<div class="testimonial-block_one-inner">
+									<div class="testimonial-block_one-rating">
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+									</div>
+									<div class="testimonial-block_one-text">"Our company was struggling to keep up with the demands of our growing business until we found this automation agency. They helped us streamline our workflow and cut down our workload significantly. We are now able to focus on what matters most to our business, and it has resulted in a noticeable increase in productivity."</div>
+									<div class="testimonial-block_one-author_box">
+										<div class="testimonial-block_one-author-image">
+											<img src="assets/images/resource/avatar1.png" alt="" />
+										</div>
+										Arjun M. ★★★★★
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Slide -->
+						<div class="swiper-slide">
+							<!-- Testimonial Block One -->
+							<div class="testimonial-block_one">
+								<div class="testimonial-block_one-inner">
+									<div class="testimonial-block_one-rating">
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+									</div>
+									<div class="testimonial-block_one-text">"I was skeptical at first about using an automation agency, but I am so glad I did. They helped me automate all of my repetitive tasks, which has given me back so much time in my day. I can now focus on the things that I'm passionate about in my business without feeling overwhelmed."</div>
+									<div class="testimonial-block_one-author_box">
+										<div class="testimonial-block_one-author-image">
+											<img src="assets/images/resource/avatar2.png" alt="" />
+										</div>
+										Vikram D. ★★★★★
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Slide -->
+						<div class="swiper-slide">
+							<!-- Testimonial Block One -->
+							<div class="testimonial-block_one">
+								<div class="testimonial-block_one-inner">
+									<div class="testimonial-block_one-rating">
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+									</div>
+									<div class="testimonial-block_one-text">"If you're looking for a way to scale your business without sacrificing your personal life, then this automation agency is the way to go. They helped me automate everything from social media management to customer support, which has allowed me to take my business to the next level without burning out."</div>
+									<div class="testimonial-block_one-author_box">
+										<div class="testimonial-block_one-author-image">
+											<img src="assets/images/resource/avatar3.png" alt="" />
+										</div>
+										Rohan L. ★★★★★
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Slide -->
+						<div class="swiper-slide">
+							<!-- Testimonial Block One -->
+							<div class="testimonial-block_one">
+								<div class="testimonial-block_one-inner">
+									<div class="testimonial-block_one-rating">
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+									</div>
+									<div class="testimonial-block_one-text">"I can't recommend this automation agency enough. They have helped me automate my entire workflow, which has saved me so much time and energy. I no longer feel like I'm drowning in my work, and I'm able to focus on growing my business."</div>
+									<div class="testimonial-block_one-author_box">
+										<div class="testimonial-block_one-author-image">
+											<img src="assets/images/resource/avatar4.png" alt="" />
+										</div>
+										Aditya W. ★★★★★
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<!-- If we need pagination -->
+					<div class="three-item_carousel-pagination"></div>
+
+				</div>
+
+			</div>
+		</div>
+</section>
+
